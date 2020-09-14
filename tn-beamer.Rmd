@@ -1,0 +1,63 @@
+---
+title: Financial applications of blockchains and distributed ledgers
+short-title: Blockchain Technologies
+author: "Jiahua (Java) Xu"
+date: "Session 1"
+output:
+  beamer_presentation:
+    colortheme: beaver
+    fonttheme: structurebold
+    highlight: espresso
+    includes:
+      in_header: diss-beamer.sty
+    slide_level: 2
+    theme: Dresden
+    keep_tex: yes
+  slidy_presentation:
+    footer: "Blockchain applications, Jiahua (Java) Xu, EPFL"
+  ioslides_presentation:
+    logo: figure/epfllogo.png
+subtitle: Master's program in Financial Engineering
+link-citations: yes
+bibliography: BlockchainEconomics.bib
+# suppress-bibliography: no
+...
+
+```{r echo=F, warning=F}
+library(magrittr)
+options(stringsAsFactors=F)
+
+knitr::opts_chunk$set(echo = F, cache = T, eval=F)
+```
+
+```{r child = 'session1.Rmd', eval=T}
+```
+
+## Thank you!
+
+**Contact**
+
+\vspace{0.6cm}
+
+Jiahua (Java) Xu
+
+\vspace{0.4cm}
+
+Ecole Polytechnique Fédérale de Lausanne (EPFL)
+
+
+EXTRA 249 (Extranef UNIL)
+
+
+Quartier UNIL-Dorigny 
+
+
+\vspace{0.4cm}
+
+jiahua.xu@epfl.ch
+
+T: +41 21 693 1283 $|$ M: +41 78 620 6101 
+
+## References {.allowframebreaks}
+
+\widowpenalties 1 0

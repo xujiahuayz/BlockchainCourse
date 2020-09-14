@@ -1,3 +1,10 @@
+# Added type
+*.tex
+*.Rhistory
+*.RData
+.Rporj.user
+
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
