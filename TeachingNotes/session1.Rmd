@@ -322,9 +322,9 @@ $$verify:\ (pk, message, sig) \rightarrow isValid$$
 
 $$verify(pk, message, sign(sk, message)) == True$$
 
----
+<!-- --- -->
 
-![Encryption/Decryption](figure/encryption.PNG){width=90%}
+<!-- ![Encryption/Decryption](figure/encryption.PNG){width=90%} -->
 
 ---
 
