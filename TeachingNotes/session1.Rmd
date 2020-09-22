@@ -28,6 +28,10 @@ Tuesdays, on Zoom, https://epfl.zoom.us/j/4897861984
 ## Lessons learned from previous year {.plain}
 
 ![Students' feedback are taken to heart.](figure/TeachingEval.png){width=80%}
+
+
+---
+
 ## Assessment methods
 
 - 75% Group essay
@@ -394,8 +398,9 @@ $$H(x)= x \mod 2^{256}$$
 
 ### Hiding
 
-A hash function H is said to be hiding if when a secret value $r$ is chosen from a probability distribution that has high **min-entropy**, then, given $H(r \| x)$, it is infeasible to find $x$.
+A hash function $H()$ is said to be hiding if when a secret value $r$ is chosen from a probability distribution that has high **min-entropy**, then, given $H(r \| x)$, it is infeasible to find $x$.
 
+where $\|$ is a concatenation operator.
 
 $$
 \mathcal{H}_{\min (G)} = \overbrace{
