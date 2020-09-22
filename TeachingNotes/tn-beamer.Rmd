@@ -56,8 +56,6 @@ Quartier UNIL-Dorigny
 
 jiahua.xu@epfl.ch
 
-T: +41 21 693 1283 $|$ M: +41 78 620 6101 
-
 ## References {.allowframebreaks}
 
 \widowpenalties 1 0

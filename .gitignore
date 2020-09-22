@@ -3,6 +3,8 @@
 *.Rhistory
 *.RData
 .Rporj.user
+**/venv/
+**/.vscode
 
 
 ## Core latex/pdflatex auxiliary files:
