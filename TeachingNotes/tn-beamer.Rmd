@@ -2,12 +2,12 @@
 title: Financial applications of blockchains and distributed ledgers
 short-title: Blockchain Technologies
 author: "Jiahua (Java) Xu"
-date: "Session 2"
+date: "Session 3"
 output:
   beamer_presentation:
     colortheme: beaver
     fonttheme: structurebold
-    highlight: espresso
+    highlight: haddock
     includes:
       in_header: diss-beamer.sty
     slide_level: 2
@@ -30,7 +30,7 @@ options(stringsAsFactors=F)
 knitr::opts_chunk$set(echo = F, cache = T, eval=F)
 ```
 
-```{r child = 'session2.Rmd', eval=T}
+```{r child = 'session3.Rmd', eval=T}
 ```
 
 ## Thank you!
