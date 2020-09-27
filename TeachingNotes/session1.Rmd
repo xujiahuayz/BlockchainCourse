@@ -15,13 +15,14 @@ Tuesdays, on Zoom, https://epfl.zoom.us/j/4897861984
 (@) 2020-09-29: Smart contract with Ethereum, hands-on session
 
 (@) 2020-10-06: Research seminar
-    - **Gaspard Peduzzi** (EPFL): Arbitrage on decentralized exchanges
+    - **Andreas Richardson** (Imperial College London): Carbon Trading with Blockchain
     - **Juan Ignacio Ibañez** (Catholic University of Cordoba): Accounting with Blockchain
-    - **Simon Sive** from University College London: Real estate tokenization
+    - **Simon Sive** (UCL): Real estate tokenization
 
 (@) 2020-10-13: Industry seminar
     - **Adrien Treccani** ([Metaco](https://www.metaco.com/))
-    - TBD
+    - **Ilya Volkov** ([YouHodler](https://www.youhodler.com/))
+    - **Gaspard Peduzzi** ([APWine](https://apwine.fi/))
 
 (@) 2020-10-20: Group presentation
 
@@ -463,107 +464,3 @@ Attacker copies of nodes that a malicious (enabled by pseudonymity)
 ---
 
 ### What do miners compete to solve?
-
----
-
-
-***Hash puzzle***
-
-$$H(nonce \| PrevHash \| tx1 \| tx2 \|) < target$$
-
-
-
-![A block on the Bitcoin blockchain](figure/block.jpg){width=50%}
-
----
-
-
-Solving hash puzzles is probabilistic, because nobody can predict which nonce is going to solve the hash puzzle.
-
----
-
-51% Attack?
-
----
-
-Attacker  has to subvert not only **the consensus process** (by having 51% computing power) but also the cryptography!
-
----
-
-### Adjustable difficulty level
-
-- Average block time: 10 min
-- Target recalculated every 2,016 blocks -- every two weeks.
-
----
-
-
-## Fork
-
-Miners diverge and start adding blocks to two chain branches
-
-
-***Heuristic***
-
-Follow the longest chain
-
----
-
-
-## Incentives
-
-### Block reward
-
-![Total supply of bitcoins with time. The block reward is cut in half every 4 years, limiting the total supply of bitcoins to 21 million. This is a simplified model and the actual curve looks slightly different, but it has the same 21 million limit.](figure/bitcoinsupply.jpg){width=60%}
-
-
----
-
-### Transaction fee
-
-- The initiator of any transaction can choose to make the transaction output(s) $<$ input(s). 
-- Whoever creates the block that first puts that transaction into the block chain gets to collect the difference, which acts a transaction fee.
-
----
-
-## One stone two birds:
-
-1. Encourage block building
-2. Encourage honest behavior
-
----
-
-## The economics of mining
-
-
-$$MiningReward = \underbrace{BlockReward + TransactionFee}_{\text{Probablistic}}$$
-$$MiningCost = \underbrace{HardwareCost}_{\text{FixedCost}} + \underbrace{OperatingCosts}_{\text{Variable Cost}}$$
-
-
-If $MiningReward > MiningCost$, then the miner makes a profit.
-
-
-### Complications
-
-- Other miners' hash rate?
-- Denominations: USD/Bitcoin?
-- Honest/dishonest?
-
-
-
----
-
-***Research question***
-
-Is the default miner behavior a *Nash equilibrium*? That is, does it represent a stable situation in which no miner can realize a higher payoff by deviating from honest behavior? [@Narayanan2016]
-
-
----
-
-
-## Further reading
-
-
-[Bitcoin Rap Battle Debate: Hamilton vs. Satoshi](https://www.youtube.com/watch?v=JaMJi1_1tkA){width="90%"}
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/JaMJi1_1tkA" frameborder="0" allowfullscreen></iframe>

@@ -286,13 +286,19 @@ function deposit() payable {
 - DEXs on XRPL
     - Ledger gateway
     
+### Trading platform
 
+- fidentiaX: secondary life insurance trading on blockchain
+
+### Lending platform
+
+- Compound
 
 # Cross-platform communication
 
 ## Oracle
 
-Oracles aredata feeds into smart contracts and by relying on some third party provide amechanism for accessing off-chain information.
+Data feed services that provide smart contracts with external information / off-chain information.
 
 ## Atomic swap
 
