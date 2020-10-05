@@ -38,7 +38,7 @@ Tuesdays, on Zoom, https://epfl.zoom.us/j/4897861984
     * Merkle tree
     * Adjustable difficulty level
 1. Proof-of-Stake and other consensus mechanisms
-1. Blockchain vs. Ethereum
+1. Bitcoin vs. Ethereum
     * Record-keeping model
     * Language
 1. Decentralized autonomous organization
@@ -67,7 +67,7 @@ Data feed services that provide smart contracts with external information / off-
 1. As early as when the secret is revealed in the mempool of Chain$_b$ (even before the Alice's transfer is confirmed), Bob can use the secret to unlock the assets on Chain$_a$ and complete the cross-ledger transaction.
 
 
-## Decentralized finance
+## Decentralized finance {.shrink}
 
 ### Decentralized exchange (DEX)
 
