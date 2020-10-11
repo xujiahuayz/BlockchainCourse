@@ -13,13 +13,14 @@ contract MyToken {
   event Approval(address indexed _owner, address indexed _spender, uint256 _value);
 
   // TODO: create mapping for balances
-  // TODO: create mapping for allowances
  mapping (address => uint) public balances;
+
+   // TODO: create mapping for allowances
  mapping (address => mapping(address => uint)) public allowances;
 
   constructor() public {
     // TODO: set sender's balance to total supply
- balances[msg.sender] = supply;
+  balances[msg.sender] = supply;
   }
 
   function totalSupply() public pure returns (uint256) {
@@ -45,7 +46,8 @@ contract MyToken {
   function transferFrom(address _from, address _to, uint256 _value) public returns (bool) {
     // TODO: transfer `_value` tokens from `_from` to `_to`
     // NOTE: `_from` needs to have enough tokens and to have allowed sender to spend on his behalf
-	require(balances[_from] >= _value && allowances[_from][_to] >= _value);
+	require(balances[_from] >= _value && allowances[_from][_to] >= _value, "balances too low");
+  require(allowances[_from][_to] >= _value, "allowances too low");
 	balances[_from] -= _value;
   allowances[_from][_to] -= _value;
 	balances[_to] += _value;
