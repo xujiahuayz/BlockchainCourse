@@ -46,7 +46,7 @@ contract MyToken {
   function transferFrom(address _from, address _to, uint256 _value) public returns (bool) {
     // TODO: transfer `_value` tokens from `_from` to `_to`
     // NOTE: `_from` needs to have enough tokens and to have allowed sender to spend on his behalf
-	require(balances[_from] >= _value && allowances[_from][_to] >= _value, "balances too low");
+	require(balances[_from] >= _value, "balances too low");
   require(allowances[_from][_to] >= _value, "allowances too low");
 	balances[_from] -= _value;
   allowances[_from][_to] -= _value;
