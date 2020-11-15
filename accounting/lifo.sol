@@ -1,4 +1,3 @@
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
 
@@ -19,9 +18,12 @@ contract LIFO {
         inventory.push(inventoryAdded);
     }
 
-    function sellInventory(int salePrice) public {
+    function sellInventory(int salePrice) public  {
+        // cost of goods sold
+        int cogs = inventory[inventory.length - 1];
+        
         // calculate profit of this sale
-        int profit = salePrice - inventory[inventory.length - 1];
+        int profit = salePrice - cogs;
         
         // remove the last element in the `inventory` array
         inventory.pop();
