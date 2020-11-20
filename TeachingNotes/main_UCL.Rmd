@@ -2,7 +2,7 @@
 title: Coding Smart Contracts
 short-title: Computer Science Face-to-Face Enrichment
 author: "Jiahua (Java) Xu"
-date: "Week 7, Term 1, 2020"
+date: "Term 1, 2020"
 output:
   beamer_presentation:
     colortheme: crane

@@ -47,9 +47,9 @@ contract MyToken {
     // TODO: transfer `_value` tokens from `_from` to `_to`
     // NOTE: `_from` needs to have enough tokens and to have allowed sender to spend on his behalf
 	require(balances[_from] >= _value, "balances too low");
-  require(allowances[_from][_to] >= _value, "allowances too low");
+  require(allowances[_from][msg.sender] >= _value, "allowances too low");
 	balances[_from] -= _value;
-  allowances[_from][_to] -= _value;
+  allowances[_from][msg.sender] -= _value;
 	balances[_to] += _value;
   emit Transfer(_from, _to, _value);
 	return true; 

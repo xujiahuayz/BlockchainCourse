@@ -14,8 +14,8 @@
 ```solidity
 contract Coin {
   address public minter;
-  // "mapping" creates "balances" as state varialble
-  //"public" makes variables accessible from other contracts
+  // "mapping" creates "balances" as state variable
+  // "public" makes variables accessible from other contracts
   mapping (address => uint) public balances;
 
   // constructor (optional) is only run when the contract is created
@@ -64,7 +64,7 @@ contract Coin {
 We want to execute smart contract at address A
 
 * User sends a transaction to address A
-* Transaction is broadcasted in the same way as other transactions
+* Transaction is broadcast in the same way as other transactions
 * Miner executes the smart contract at address A
 * If execution succeeds, new state is computed
 * When receiving the block containing the transaction,
@@ -421,17 +421,24 @@ function overflow(uint fee) {
 
 ### NodeJS (if not already installed)
 
-Follow instructions at: https://nodejs.org/en/download/
 
-### Use `nvm` for version control of `node`
+Download from: https://nodejs.org/en/
 
-`truffle` is compatible with `node` 12, but not `node` 14
+Or install with `homebrew`
 
-Follow instructions at: https://medium.com/@Joachim8675309/installing-node-js-with-nvm-4dc469c977d9
+```sh
+brew install node
+```
+
+<!-- ### Use `nvm` for version control of `node` -->
+
+<!-- `truffle` is compatible with `node` 12, but not `node` 14 -->
+
+<!-- Follow instructions at: https://medium.com/@Joachim8675309/installing-node-js-with-nvm-4dc469c977d9 -->
 
 ### Truffle
 
-```
+```sh
 npm install -g truffle
 ```
 
@@ -445,7 +452,8 @@ It defines a common interface to
 * Transfer tokens
 * Allow other parties to transfer tokens
 * Check balance for tokens
-* Emit events for token transfers
+* Emit events for token transfers and allowance approvals
+  * `emit` creates event logs
 
 ## ERC-20 interface {.shrink}
 
@@ -489,20 +497,21 @@ We will build a very simple token:
 
 ## Starting to develop {.shrink}
 
-Start a new project
+### Start a new project
 
 ```zsh
 mkdir my-token
 cd my-token
 truffle init
-truffle create contract MyToken
 ```
 
-Create migration file: 
+### Create migration file: 
 
 ```zsh
 vi migrations/2_my_token.js
 ```
+
+### Copy the following code into `2_my_token.js`
 
 ```javascript
 const MyToken = artifacts.require("MyToken");
@@ -512,28 +521,30 @@ module.exports = function(deployer) {
 };
 ```
 
-<!-- ## Implement and test the project  -->
-
-
-Download the specs for the project
+###  Download the specs for the project
 
 ```zsh
-wget https://git.io/smart-contract-intro-spec -O test/my-token-test.js
+wget https://git.io/JTkZq -O test/my-token-test.js
 ```
 
-Run the tests
+## Implement and test the project {.shrink}
+
+
+
+### Get the contract skeleton (optional)  
+
+```zsh
+wget https://git.io/JTkZL -O contracts/MyToken.sol
+```
+
+### Or if you feel confident, create a blank `MyToken.sol` in the `contracts` folder
+
+```zsh
+truffle create contract MyToken
+```
+
+### Run the tests
 
 ```zsh
 truffle test
 ```
-
-Get the contract skeleton (optional)  
-
-If you are not confident, you can get the skeleton to get started
-
-```zsh
-wget https://git.io/smart-contract-intro-skel -O contracts/MyToken.sol
-```
-
-Now, implement the contract and run the tests regularly.  
-Check [the ERC-20 standard](https://eips.ethereum.org/EIPS/eip-20) for more details about each function.
