@@ -1,13 +1,7 @@
 ---
-title: Blockchain Technologies
-short-title: Computer Science Face-to-Face Enrichment
+title: Token creation
 author: "Jiahua (Java) Xu"
-date: "Term 1, 2020"
 output:
-  slidy_presentation:
-    footer: "Coding Smart Contracts, Jiahua (Java) Xu, UCL"
-  ioslides_presentation:
-    logo: figure/ucllogo.svg
   beamer_presentation:
     colortheme: crane
     fonttheme: structurebold
@@ -18,7 +12,7 @@ output:
     slide_level: 2
     theme: Dresden
     keep_tex: yes
-subtitle: UCL Centre for Blockchain Technologies
+subtitle: Course on Blockchain Technologies and Central Banking
 link-citations: yes
 bibliography: BlockchainEconomics.bib
 # suppress-bibliography: no
@@ -31,7 +25,7 @@ options(stringsAsFactors=F)
 knitr::opts_chunk$set(echo = F, cache = T, eval=F)
 ```
 
-```{r child = 'workshop1.Rmd', eval=T}
+```{r child = 'remix.Rmd', eval=T}
 ```
 
 ## Thank you!
@@ -50,11 +44,10 @@ UCL Centre for Blockchain Technologies
 66-72 Gower Street
 
 
-
 \vspace{0.4cm}
 
 jiahua.xu@ucl.ac.uk
 
 ## References {.allowframebreaks}
 
-\widowpenalties 1 0
+<!-- \widowpenalties 1 0 -->

@@ -1,0 +1,205 @@
+# Definition of blockchain
+
+### What is blockchain? (How do you understand blockchain)
+
+---
+
+[IBM and Oliver Wyman:](https://www.ibm.com/blockchain/what-is-blockchain)
+
+> Blockchain is a shared, distributed ledger that facilitates the process of recording transactions and tracking assets in a business network. 
+An asset can be tangible --- a house, a car, cash, land --- or intangible like intellectual property, such as patents, copyrights, or branding. 
+Virtually anything of value can be tracked and traded on a blockchain network, reducing risk and cutting costs for all involved.
+
+---
+
+[Wikipedia:](https://en.wikipedia.org/wiki/Blockchain)
+
+> A blockchain, originally block chain, is a growing list of records, called blocks, that are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree).
+
+---
+
+[Oxford:](https://www.lexico.com/en/definition/blockchain)
+
+> a system in which a record of transactions made in bitcoin or another cryptocurrency is maintained across several computers that are linked in a peer-to-peer network
+
+---
+
+### What defines "blockchain"?
+
+---
+
+:::::: {.columns}
+::: {.column width="33%"}
+#### Properties
+- Trustless?
+- Distributed?
+- Decentralized?
+- Peer-to-peer?
+- Tamper-proof?
+:::
+
+::: {.column width="33%"}
+#### Components
+- Cryptographic hash?
+- Timestamp?
+- Block?
+- Chain?
+:::
+
+::: {.column width="33%"}
+#### Purpose
+- Record transactions?
+:::
+::::::
+
+
+# Bitcoin: A Peer-to-Peer Electronic Cash System [@Nakamoto]
+
+---
+
+### What problem(s) does a blockchain solve?
+
+---
+
+## De/centralization
+
+### Why was there centralization in the first place?
+
+---
+
+#### Centralization of payment system
+
+- 1990s, standards for protocol-level encryption just emerged
+- Lack of trust
+    - Security
+    - Privacy
+- Birth of the intermediary architecture
+
+#### Centralization of monetary system
+
+- "Fiat" currency: trust in the government
+    - IOU from a bank vs IOU from a stranger
+    - Gold standard: 1 oz gold = 35 USD
+
+
+**It made things easier --- because you only have to trust one entity.**
+
+---
+
+### Is a central authority still *necessary* today?
+
+---
+
+*Possibility* to abandon central authority
+
+- Security mechanisms advanced
+- Payment scheme was lagging behind
+
+
+---
+
+### But can we just leave it?
+
+---
+
+Necessity [?] to abandon central authority
+
+#### Monetary system
+
+- Abandonment of the gold standard
+- Capital control
+- Hyperinflation: Zimbabwe and Venezuela
+    - Deficit government spending
+    - National debt
+    - Heavy money-printing
+- Financial crisis
+    - The Times 2009-01-03: [Chancellor on Brink of Second Bailout for Banks](https://www.thetimes03jan2009.com/)
+    - New York Times 2020-04-09: [With $2.3 Trillion Injection, Fed’s Plan Far Exceeds Its 2008 Rescue](https://www.nytimes.com/2020/04/09/business/economy/fed-economic-rescue-coronavirus.html)
+
+
+
+#### Payment system
+
+- Privacy
+
+---
+
+### What problem does a blockchain cause?
+
+... and things to consider when choosing between a blockchain and a centralized database.
+
+---
+
+## Distributed -> Latency
+
+### Double spending
+
+Double spending is a problem native to a distributed network due to latency, but less problematic in a centralized one.
+
+
+### Detecting double spending
+
+Imagine:
+
+- You have $100 in your bank account
+- You issue to merchants A and B *each* a $100 check 
+
+
+What will happen?
+
+---
+
+
+### Preventing double spending in a *centralized* system
+
+Law enforcement: You'll be punished if you double spend.
+
+
+### Preventing double spending in a *decentralized* system
+
+Consensus mechanism (to be discussed) -- which need not be considered if using a centralized system in the first place.
+
+## Transparency -> Privacy issues
+
+### No real ID needed -- only a BTC address
+
+Does pseudonymity suffice for privacy protection?
+
+
+---
+
+### UTXO (Unspent transaction output)
+
+
+![UTXO schema](figure/UTXOschema.png)
+
+---
+
+![UTXO [transaction](https://www.blockchain.com/btc/tx/597d00408bd38c3e3ccabbdb9263d0ace542e4adc7f0f93a52c8f0ae19118f90): input -> output](figure/UTXO0.png)
+
+
+![UTXO [transaction](https://www.blockchain.com/btc/tx/83132be7f191a0f7e47763ebb30bb36a7d3d940bab7582de71648f399b3658a0):  input 1 + input 2 -> output](figure/UTXO1.png)
+
+
+![UTXO [transaction](https://www.blockchain.com/btc/tx/557c87f20583fe28d5c14e2eaf0973af35add4e80318044c01ff9ff719c01f13):  input -> output 1 + output 2](figure/UTXO2.png)
+
+## Blockchain is not omnipotent
+
+![The blockchain trilemma](figure/trilemma)
+
+## Do you need a blockchain {.shrink}
+
+![The blockchain decision tree](figure/decisiontree)
+
+## Origins of blockchain technology
+
+Bitcoin is the fruit of pieces of prior technology
+
+- b-money [@Dai1998]
+    - Distributed payment protocol:
+        1. broadcasting (paying)
+        1. bookkeeping
+        1. confirming
+- Hashcash [@Back2002]
+    - Proof of work
+

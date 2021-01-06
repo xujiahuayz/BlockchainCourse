@@ -1,3 +1,6 @@
+**/*.ppt
+**/*.pdf
+
 # Added type
 *.tex
 *.Rhistory
