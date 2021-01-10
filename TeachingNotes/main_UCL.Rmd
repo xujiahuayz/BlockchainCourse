@@ -1,13 +1,8 @@
 ---
 title: Blockchain Technologies
-short-title: Computer Science Face-to-Face Enrichment
 author: "Jiahua (Java) Xu"
-date: "Term 1, 2020"
+date: "Term 2, 2021"
 output:
-  slidy_presentation:
-    footer: "Coding Smart Contracts, Jiahua (Java) Xu, UCL"
-  ioslides_presentation:
-    logo: figure/ucllogo.svg
   beamer_presentation:
     colortheme: crane
     fonttheme: structurebold
@@ -18,9 +13,13 @@ output:
     slide_level: 2
     theme: Dresden
     keep_tex: yes
-subtitle: UCL Centre for Blockchain Technologies
+  ioslides_presentation:
+    logo: figure/ucllogo.svg
+  slidy_presentation:
+    footer: "Blockchain Technologies"
+subtitle: UCL Computer Science
 link-citations: yes
-bibliography: BlockchainEconomics.bib
+bibliography: Blockchain.bib
 # suppress-bibliography: no
 ...
 
@@ -31,7 +30,10 @@ options(stringsAsFactors=F)
 knitr::opts_chunk$set(echo = F, cache = T, eval=F)
 ```
 
-```{r child = 'workshop1.Rmd', eval=T}
+```{r child = 'sessions/housekeeping_UCL_2022.Rmd', eval=T}
+```
+
+```{r child = 'sessions/resources.Rmd', eval=T}
 ```
 
 ## Thank you!

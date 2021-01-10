@@ -1,0 +1,64 @@
+# Housekeeping
+
+## Time, venue, and preliminary agenda
+
+### Online lecture
+
+(@) Fridays, 12:00-14:00 London time, weeks 20-24
+
+(@) Recorded Zoom session, *for all to attend*
+
+(@) Format: fat and short (longer hours for fewer weeks) lectures
+    - Money, Bitcoin and blockchain -- an introduction
+    - Consensus, recordkeeping, and applications of different blockchain
+    - On-, cross- and off-chain activities
+    - Smart contracts
+    - Decentralized finance and a case study
+
+---
+
+### Online lab practical 
+
+(@) Mondays, 8:00-9:00 London time, weeks 20-24 and 26-30
+
+(@) Recorded Zoom session, *for all to attend*
+
+(@) Format: workshops, hands-on sessions,  research seminar and industry seminar with guest speakers, presentations
+
+
+### Tutur support / Q & A
+
+(@) 2 - 3 time slots / week:
+    - Tuesdays, 11:00-12:00 London time, weeks 20-24 and 26-30
+    - Wednesdays, 8:00-9:00 London time, weeks 20-24 and 26-30
+    - Fridays, 8:00-9:00 London time, weeks 26-30
+
+(@) Zoom or Teams, on demand, recorded with consent
+
+---
+
+## Assessment methods
+
+- 30% Individual
+    - 10% Contribution to class (e.g. active participation, forum discussion)
+    - 20% Take-home coding task: 22/02/2021
+- 70% Group
+    - 50% Essay
+        - Initial submission: 22/02/2021
+        - Revised submission (if applicable): 29/03/2021
+    - 20% Presentation
+
+*It's better to start early!*
+
+---
+
+> It is not just any group project ...
+
+---
+
+## Previous students' work
+
+- **Matthieu Baud**, **Henry Decléty**, **Hugo Roussel**: *Jack the Rippler* won [Ripple's Block-Sprint Hackathon](https://actu.epfl.ch/news/fast-as-lightning-prize-of-the-block-sprint-hack-2/) (GBP 3,000 award) 
+- **Andreas Richardson**: *Carbon Trading with Blockchain* presented at the [International Conference on
+Mathematical Research for Blockchain Economy](https://www.marble-conference.org/marble2020-programme), to be pulished by [Springer](https://www.springer.com/gp/book/9783030533557)
+- **Yanan Liu**: *Libra's impact on world economy* published on the [Medium Channel of UCL Centre for Blockchain Technologies (CBT)](https://medium.com/uclcbt/inception-of-stablecoins-like-libra-and-its-impact-on-world-economy-73d9124f25a6)

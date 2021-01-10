@@ -1,0 +1,118 @@
+# Useful resources for this course
+
+## For essays {.allowframebreaks}
+
+### diagrams.net
+
+https://www.diagrams.net/
+
+professional, clean, beautiful diagrams
+
+### Overleaf
+
+https://www.overleaf.com/
+
+online TeX editor for collaboration
+
+use university credential for premium functions: track changes, sync Mendeley
+
+### Mendeley
+
+https://www.mendeley.com/
+
+bibliography organizer
+
+both desktop app and browser extension recommended
+
+## For coding tasks
+
+### Github
+
+https://github.com/
+
+code storage, collaboration, version control 
+
+
+### Visual studio code
+
+https://code.visualstudio.com/
+
+open source IDE
+
+Useful extensions:
+
+- Solidity
+    - https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity
+- Prettier
+    - https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    - https://github.com/prettier-solidity/prettier-plugin-solidity
+
+## Blockchain specific
+
+### truffle suite
+
+- Truffle
+    - https://www.trufflesuite.com/truffle
+    - You need node first https://nodejs.org/en/
+- Ganache
+    - https://www.trufflesuite.com/ganache
+
+### Etherscan
+
+- Mainnet: https://etherscan.io/
+- Kovan Testnet: https://kovan.etherscan.io/
+
+### MetaMask
+
+https://metamask.io/
+
+browser-based wallet
+
+## Crypto trading platfrom: TRADE AT YOUR OWN RISK!!
+
+
+### Coinbase (pro)
+
+- market taking: https://www.coinbase.com/
+- order book: https://pro.coinbase.com/
+
+trade crypto with fiat
+
+### Binance
+
+https://www.binance.com/en
+
+trade crypto with crypto
+
+## Literature {.allowframebreaks}
+
+### Book
+
+@Narayanan2016a: a systematic introduction on Bitcoin and blockchain
+<!-- @ -->
+<!-- Narayanan, A., Bonneau, J., Felten, E., Miller, A., & Goldfeder, S. (2016). **Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction**. *Princeton University Press* (Vol. 1st Ed). Retrieved from https://press.princeton.edu/titles/10908.html -->
+
+### Papers
+
+@nakamoto2012bitcoin: the original Bitcoin paper
+
+@236350: a crypto trading scheme
+
+@Perez2020e: on-chain transactional throughput revisited
+
+@Richardson2020CarbonBlockchain: a critical review on carbon exchange on blockchain
+
+
+### Business case study
+
+@Braun2020a: the adventure of a blockchain start-up
+
+<!-- Nakamoto, S. (2008). **Bitcoin: A Peer-to-Peer Electronic Cash System**. Retrieved from www.bitcoin.org -->
+
+<!-- Perez, D., Xu, J., & Livshits, B. (2020). **Revisiting Transactional Statistics of High-scalability Blockchains**. In *Proceedings of the ACM Internet Measurement Conference* (Vol. 16, pp. 535–550). New York, NY, USA: ACM. https://doi.org/10.1145/3419394.3423628 -->
+
+<!-- Xu, J., & Livshits, B. (2019). **The Anatomy of a Cryptocurrency Pump-and-Dump Scheme**. In *28th USENIX Security Symposium (USENIX Security 19)* (pp. 1609–1625). Santa Clara, CA: USENIX Association. Retrieved from https://arxiv.org/abs/1811.10109 -->
+
+<!-- Richardson, A., & Xu, J. (2020). **Carbon Trading with Blockchain**. In P. Pardalos, I. Kotsireas, Y. Guo, & W. Knottenbelt (Eds.), *Mathematical Research for Blockchain Economy* (pp. 105–124). https://doi.org/10.1007/978-3-030-53356-4_7 -->
+
+<!-- Braun, A., Cohen, L. H., & Xu, J. (2020). **fidentiaX: The Tradable Insurance Marketplace on Blockchain**. *Harvard Business School Case*, 219–116. Retrieved from https://www.hbs.edu/faculty/Pages/item.aspx?num=56189 -->
