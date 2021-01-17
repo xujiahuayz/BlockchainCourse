@@ -2,6 +2,6 @@
 
 ## Create a python virtual environment
 
-```zh
+```zsh
 python3 -m venv venv
 ```
