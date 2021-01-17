@@ -1,4 +1,4 @@
-# Useful data sources
+# Useful resources for data analytics
 
 ## Off-chain data
 
@@ -6,101 +6,51 @@
 
 https://min-api.cryptocompare.com/documentation
 
-professional, clean, beautiful diagrams
+## On-chain data
 
-### Mendeley
+### API by project developers
 
-https://www.mendeley.com/
+- XRP Ledger
 
-bibliography organizer
+https://xrpl.org/data-api-v2-tool.html
 
-both desktop app and browser extension recommended
+- Compound
 
-### Overleaf
-
-https://www.overleaf.com/
-
-online TeX editor for collaboration
-
-use university credential for premium functions: track changes, sync Mendeley
-
-## For coding tasks
-
-### Github
-
-https://github.com/
-
-code storage, collaboration, version control 
+https://compound.finance/docs/api
 
 
-### Visual studio code
+### Graph Protocol
 
-https://code.visualstudio.com/
+https://thegraph.com/explorer/
 
-open source IDE
+### Google BigQuery
 
-Useful extensions:
+https://console.cloud.google.com/marketplace/browse?filter=solution-type:dataset
 
-- Solidity
-    - https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity
-- Prettier
-    - https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-    - https://github.com/prettier-solidity/prettier-plugin-solidity
+### Infura
 
-## Blockchain specific
+https://infura.io/
 
-### truffle suite
+### ethereum-tools
 
-- Truffle
-    - https://www.trufflesuite.com/truffle
-    - You need node first https://nodejs.org/en/
-- Ganache
-    - https://www.trufflesuite.com/ganache
-
-### Etherscan
-
-- Mainnet: https://etherscan.io/
-- Kovan Testnet: https://kovan.etherscan.io/
-
-### MetaMask
-
-https://metamask.io/
-
-browser-based wallet
-
-## Crypto trading platfrom: TRADE AT YOUR OWN RISK!!
+https://github.com/danhper/ethereum-tools
 
 
-### Coinbase (pro)
 
-- market taking: https://www.coinbase.com/
-- order book: https://pro.coinbase.com/
+## Minimum working examples
 
-trade crypto with fiat
+https://github.com/xujiahuayz/BlockchainCourse/tree/master/mwe-data-scripts
 
-### Binance
+## Other data sources
 
-https://www.binance.com/en
+### Wharton Research Data Services
 
-trade crypto with crypto
+https://wrds-web.wharton.upenn.edu/wrds/
 
-## Literature
+### S&P Global Market Intelligence
 
-### Book
+https://platform.spgi.spglobal.com
 
-@Narayanan2016a: a systematic introduction on Bitcoin and blockchain
+## UCL high performance computing
 
-### Papers
-
-@nakamoto2012bitcoin: the original Bitcoin paper
-
-@236350: a crypto trading scheme
-
-@Perez2020e: on-chain transactional throughput revisited
-
-@Richardson2020CarbonBlockchain: a critical review on carbon exchange on blockchain
-
-
-### Business case study
-
-@Braun2020a: the adventure of a blockchain start-up
+https://www.ucl.ac.uk/research-it-services/services/research-computing-platforms
