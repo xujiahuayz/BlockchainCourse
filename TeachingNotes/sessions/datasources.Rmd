@@ -1,10 +1,10 @@
-# Useful resources for this course
+# Useful data sources
 
-## For essays
+## Off-chain data
 
-### diagrams.net
+### CryptoCompare API
 
-https://www.diagrams.net/
+https://min-api.cryptocompare.com/documentation
 
 professional, clean, beautiful diagrams
 

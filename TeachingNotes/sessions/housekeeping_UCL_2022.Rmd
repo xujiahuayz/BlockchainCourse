@@ -10,7 +10,7 @@
 
 (@) Format: fat and short (longer hours for fewer weeks) lectures
     - Money, Bitcoin and blockchain -- an introduction
-    - Consensus, recordkeeping, and applications of different blockchain
+    - Consensus, recordkeeping, and applications of different blockchains
     - On-, cross- and off-chain activities
     - Smart contracts
     - Decentralized finance and a case study
@@ -44,7 +44,8 @@
     - 20% Take-home coding task: 22/02/2021
 - 70% Group
     - 50% Essay
-        - Initial submission: 22/02/2021
+        - Ideation: 22/02/2021
+        - Complete first version: **08/03/2021, 16:00 (UK time)**
         - Revised submission (if applicable): 29/03/2021
     - 20% Presentation
 

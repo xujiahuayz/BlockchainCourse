@@ -4,7 +4,7 @@ author: "Jiahua (Java) Xu"
 date: "Term 2, 2021"
 output:
   beamer_presentation:
-    colortheme: crane
+    colortheme: beaver
     fonttheme: structurebold
     highlight: haddock
     pandoc_args: ["--syntax-definition=solidity.xml"]
@@ -31,9 +31,6 @@ knitr::opts_chunk$set(echo = F, cache = T, eval=F)
 ```
 
 ```{r child = 'sessions/housekeeping_UCL_2022.Rmd', eval=T}
-```
-
-```{r child = 'sessions/resources.Rmd', eval=T}
 ```
 
 ## Thank you!
