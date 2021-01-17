@@ -1,4 +1,4 @@
-# How to run scripts in thisdirectory
+# How to run scripts in this directory
 
 - Open the terminal
 
