@@ -3,7 +3,7 @@ import json
 from pprint import pprint
 
 
-datafolder = './data/'
+datafolder = 'data/'
 
 BASEURL = 'https://min-api.cryptocompare.com/data/v2/histohour?'
 

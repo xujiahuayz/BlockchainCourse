@@ -433,3 +433,5 @@ dmypy.json
 tmp/
 
 .vscode/
+
+**/*key.json
