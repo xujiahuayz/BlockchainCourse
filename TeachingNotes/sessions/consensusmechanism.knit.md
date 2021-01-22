@@ -1,35 +1,15 @@
-# Housekeeping
-
-## Time and venue
-
-Three sessions: 15:15 -- 16:10, 16:25 -- 17:20, 17:35 -- 18:30
-
-Tuesdays, on Zoom, https://epfl.zoom.us/j/4897861984
-
-## To-do's
-
-1. From a group.
-1. Vote for the submission deadline.
-1. (optional but appreciated) Contribute to the class discussion, on Moodle or live on Zoom.
-1. (optional) The missing recording from last time ...
-
-# From the previous lecture
-
-## Hyperinflation in Zimbabwe and Venezuela
-    
-1. Deficit government spending
-1. National debt
-1. Heavy money-printing
-
-
-## Special Drawing Right (SDR)
-
-1. ``IMF members can also use SDRs in operations and **transactions involving the IMF**, such as the **payment of interest on and repayment of loans, or payment for future quota increases**.''
-
-1. Facebook's Libra: ``LBR will not be a separate digital asset from the single-currency stablecoins. Under this change, LBR will simply be a digital **composite of some of the single-currency stablecoins** available on the Libra network. It will be defined in terms of fixed nominal weights, such as the **Special Drawing Rights (SDR)** maintained by the International Money Fund (IMF). LBR can be used as an efficient **cross-border settlement coin** as well as a neutral, low-volatility option for people and businesses in countries that do not have a single-currency stablecoin on the network yet.''
-
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 ## Recap
 
+1. Why do we need blockchain?
+try
+```sh
+echo '04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73' | xxd -ps -r
+```
 1. Double spending
 1. Digital signature
 1. Cryptographically secure hash function
@@ -151,7 +131,7 @@ If $MiningReward > MiningCost$, then the miner makes a profit.
 
 ***Research question***
 
-Is the default miner behavior a *Nash equilibrium*? That is, does it represent a stable situation in which no miner can realize a higher payoff by deviating from honest behavior? [@Narayanan2016]
+Is the default miner behavior a *Nash equilibrium*? That is, does it represent a stable situation in which no miner can realize a higher payoff by deviating from honest behavior? [@Narayanan2016a]
 
 
 
@@ -212,7 +192,7 @@ Bitcoin scripting
 <!-- force linebreak -->
 
 
-**Transaction to Bitcoin address (pay-to-pubkey-hash)**
+**Transaction to Bitcoin address (pay-to-pubkey-hash, P2PKH)**
 
 ```
 OP_DUP OP_HASH160 <371c...313> OP_EQUALVERIFY OP_CHECKSIG
@@ -293,16 +273,13 @@ function deposit() payable {
 ### Lending platform
 
 - Compound
+- Aave
 
 # Cross-platform communication
 
 ## Oracle
 
 Data feed services that provide smart contracts with external information / off-chain information.
-
-## Atomic swap
-
-Hash Timelock Contracts
 
 
 ## Further reading
