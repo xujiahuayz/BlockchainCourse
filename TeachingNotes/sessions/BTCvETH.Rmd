@@ -1,0 +1,228 @@
+## Recap
+
+1. Bitcoin miners' inventive
+2. Merkle tree
+    
+![A block on the Bitcoin blockchain hased in a merkle tree](figure/block.jpg){width=50%}
+
+---
+
+### Benefit of using Merkle tree
+
+Efficiency in data validation and storage: checking and downloading in branches
+
+---
+
+3. Forks
+
+---
+
+### Soft forks (and hard forks?)
+
+
+
+# Bitcoin vs. Ethereum
+
+## Record-keeping model
+
+### BTC
+
+![[UTXO (Unspent Transaction Output)](https://www.blockchain.com/btc/block/549244)](figure/BTCblock){width=85%}
+
+Privacy through change addresses
+
+---
+
+### ETH
+
+![[Account/Balance Model](https://etherscan.io/txs?block=4000000)](figure/ETHblock){width=85%}
+
+Simple, intuitive.
+
+## Language
+
+### BTC
+
+Bitcoin scripting
+
+- Simple, not Turing complete
+
+&nbsp;
+<!-- force linebreak -->
+
+**2 + 3 == 6?**
+
+```
+2 3 OP_ADD 6 OP_EQUAL
+```
+
+&nbsp;
+<!-- force linebreak -->
+
+
+**Transaction to Bitcoin address (pay-to-pubkey-hash)**
+
+```
+OP_DUP OP_HASH160 <371c...313> OP_EQUALVERIFY OP_CHECKSIG
+```
+
+where
+
+`<371c...313>`: pubKeyHash.
+
+`OP_DUP`: Duplicates the top stack item.
+
+`OP_HASH160`: The input is hashed twice.
+
+`OP_EQUALVERIFY`: `OP_EQUAL` + `OP_VERIFY`
+
+
+---
+
+### ETH
+
+Solidity
+
+- Sophisticated, Turing complete
+
+&nbsp;
+<!-- force linebreak -->
+
+
+**Deposit to own account**
+
+```
+function deposit() payable {
+  deposits[msg.sender] += msg.value;
+};
+```
+
+---
+
+#### Future development of Ethereum
+
+- EIP (Ethereum Improvement Proposals)-1559
+- ETH 2.0
+    1. Proof of stake
+    1. Sharding
+- Layer 2 scaling
+    1. State channels (similar to Bitcoin lightning network): no open participation, application specific
+    1. Plasma: no waiting period to withdraw funds from layer 2, not suitable for smart contracts
+    1. Side chains: invalid state transition attack --- invalid block on a side chain
+    1. Rollups: increase data layer capacity
+        - zk Rollups: fast but difficult for existing smart contracts to migrate
+        - Optimistic rollup: EVM compatible but slower
+1. Adjustable difficulty level
+1. Proof-of-Stake and other consensus mechanisms
+
+
+# Decentralized autonomous organization (DAO)
+
+## Company vs. DAO
+
+**Company**
+
+- Rules enforced top-down
+- Difficulty to change the rules depends on the management team
+
+**DAO**
+
+- Rules hard coded, enforced digitally
+- Technically difficult to change the rules once they are *deployed*
+
+## The DAO
+
+- Purpose: Crowd-funding
+- Process
+    - Investors pay ETH in exchange for DAO (representing voting rights)
+    - Investors vote for projects and winning projects receive ETH from the DAO
+- Vulnerability
+    - Loophole: a smart contract retrieves ETH first and then update the balance
+- Attack
+    - retrieve ETH recursively before updating the balance
+- Consequence
+    - Hard fork: Ethereum vs Ethereum Classic
+    - What happens: One processes the same amount of ETH and ETC at the time of the fork [@Pauls2016]
+
+
+## Side note: EOS token migration
+
+- EOS Token transfer on Ethereum blockchain freezes on 1 June 2018 22:59:59 UTC/GMT
+- Register Ethereum mainnet address prior to the deadline: associate the public key of one's Ethereum wallet with the public key of his (native) EOS wallet [@Masnavi2018]
+
+# Decentralized finance 
+
+## Decentralized exchange (DEX) {.shrink}
+
+### DEXs on Ethereum: Automated market makers (AMM)
+- Actors
+    1. Liquidity initiator / introducer
+    1. Liquidity provider
+    1. Exchange user
+    1. Arbitrageurs
+    1. Protocol foundation
+- Assets
+    1. Risk assets
+    1. Base/native/accounting/quote assets
+    1. Pool shares
+    1. Governance token
+- Conservation function
+    1. Uniswap: $k = R_o \cdot R_i$
+    1. Balancer: $k = R_o^{W_o} \cdot R_i^{W^i}$
+    1. Bancor: $k = \frac{S_j \cdot P_j}{R_{\tt USD}}$
+
+---
+
+### DEXs on XRPL: Ledger gateway
+
+- Orderbook structure
+- User-defined trustline
+- IOU issuance
+- Transitive trustline (ripple effect)
+
+
+***Take statements on the Internet with a pinch of salt***
+
+Ripple XRP: RTGS New Cross Border Payment System, Is Ripple in Trouble Here???: https://www.youtube.com/watch?v=kkZpSM6VwJU
+
+## Stablecoin [@Klages-Mundt2020]
+
+- Custodial
+    * Reserve Fund: Libra
+    * Fractional Reserve Fund: $\tt USDT$
+    * Central Bank Digital Currency (CBDC) (?)
+- Non-custodial
+    * $\tt DAI$: Collateralized by $\tt ETH$
+    
+## Lending protocols on Ethereum
+
+- Value locked: deposits, liquidity supply
+    - Maker: 2.4 Billion USD
+    - Compound: 1.5 Billion USD
+    - Aave: 1.3 Billion USD
+- IOU token: proof that the protocol owes you
+    - Maker: $\tt DAI$
+    - Compound: $\tt cToken$
+    - Aave: $\tt aToken$
+- Collateral
+- Liquidation
+- Interest rate
+- Governance token
+    - Maker: $\tt MKR$
+    - Compound: $\tt COMP$
+    - Aave: $\tt AAVE$
+
+## CeFi lending vs. DeFi lending
+
+![Lending markets landscape](figure/lendingmarkets)
+
+
+ 
+
+
+## Further reading
+
+
+[Bitcoin Rap Battle Debate: Hamilton vs. Satoshi](https://www.youtube.com/watch?v=JaMJi1_1tkA){width="90%"}
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/JaMJi1_1tkA" frameborder="0" allowfullscreen></iframe>

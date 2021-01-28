@@ -4,36 +4,64 @@
 
 ### Online lecture
 
-(@) Fridays, 12:00-14:00 London time, weeks 20-24
+- Fridays, 12:00-14:00 London time, weeks 20-24
 
-(@) Recorded Zoom session, *for all to attend*
+- Recorded Zoom session, *for all to attend*
 
-(@) Format: fat and short (longer hours for fewer weeks) lectures
-    - Money, Bitcoin and blockchain -- an introduction
-    - Consensus, recordkeeping, and applications of different blockchains
-    - On-, cross- and off-chain activities
-    - Smart contracts
-    - Decentralized finance and a case study
+- Format: fat and short (longer hours for fewer weeks) lectures
+    - Money, Bitcoin and blockchain -- an introduction (W1)
+    - Consensus and recordkeeping different blockchains (W2)
+    - DAO and Decentralized finance (W3)
+    - Smart contracts (W4)
+    - On-, cross- and off-chain activities (W5)
 
 ---
 
 ### Online lab practical 
 
-(@) Mondays, 8:00-9:00 London time, weeks 20-24 and 26-30
+- Mondays, 8:00-9:00 London time, weeks 20-24 and 26-30
 
-(@) Recorded Zoom session, *for all to attend*
+- Recorded Zoom session, *for all to attend*
 
-(@) Format: workshops, hands-on sessions,  research seminar and industry seminar with guest speakers, presentations
+---
 
+- Format: 
+    - workshops
+        - Useful resources (W1)
+        - How to retrieve data and browse blockchain: demo sessions (W2-3)
+        - Business case study (W7)
+    - hands-on sessions
+        - Coding smart contract (W5)
+    - presentations
+        - Group projects (W8-10)
+    - seminar with former students (W4)
+        - **Jason James** (UCL Computer Science): [Hyperaware](https://hyperaware.io/)
+        - **Andreas Richardson** (Imperial College London): [Carbon Trading with Blockchain](https://eprint.iacr.org/2020/1476.pdf), [Github Repo](https://github.com/xujiahuayz/CarbonTradingwithBlockchain)
+        - **Gaspard Peduzzi** (EPFL Computer Science): [APWine](https://apwine.fi/)
+    - seminar with industry partners (W6 -- time may change)
+        - Leemon Baird (Hedera *Hashgraph*)
+        - Aditya Turakhia (Ripple)
 
-### Tutur support / Q & A
+---
 
-(@) 2 - 3 time slots / week:
+### Tutur support / Q & A / Office hours
+
+- 2 - 3 time slots / week:
     - Tuesdays, 11:00-12:00 London time, weeks 20-24 and 26-30
     - Wednesdays, 8:00-9:00 London time, weeks 20-24 and 26-30
     - Fridays, 8:00-9:00 London time, weeks 26-30
 
-(@) Zoom or Teams, on demand, recorded with consent
+- Zoom or Teams, on demand, recorded with consent
+
+---
+
+### Optional: face-to-face enrichment sessions
+
+- Zoom: https://ucl.zoom.us/j/9392520975
+
+- Time: 17:00 - 18:00 London time
+    - 4 Feb 2021: The renaissance of blockchain: disruption in logistics and accounting
+    - 11 Feb 2021: Decentralized exchanges on Ethereum: Uniswap, Balancer, Bancor and Curve
 
 ---
 
@@ -61,5 +89,9 @@
 
 - **Matthieu Baud**, **Henry Decléty**, **Hugo Roussel**: *Jack the Rippler* won [Ripple's Block-Sprint Hackathon](https://actu.epfl.ch/news/fast-as-lightning-prize-of-the-block-sprint-hack-2/) (GBP 3,000 award) 
 - **Andreas Richardson**: *Carbon Trading with Blockchain* presented at the [International Conference on
-Mathematical Research for Blockchain Economy](https://www.marble-conference.org/marble2020-programme), to be pulished by [Springer](https://www.springer.com/gp/book/9783030533557)
+Mathematical Research for Blockchain Economy](https://www.marble-conference.org/marble2020-programme), pulished by [Springer](https://www.springer.com/gp/book/9783030533557), [Github Repo](https://github.com/xujiahuayz/CarbonTradingwithBlockchain)
 - **Yanan Liu**: *Libra's impact on world economy* published on the [Medium Channel of UCL Centre for Blockchain Technologies (CBT)](https://medium.com/uclcbt/inception-of-stablecoins-like-libra-and-its-impact-on-world-economy-73d9124f25a6)
+
+---
+
+> Register your group NOW [on Moodle](https://moodle.ucl.ac.uk/mod/choicegroup/view.php?id=2705471)!

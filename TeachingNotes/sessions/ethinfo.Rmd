@@ -1,0 +1,43 @@
+# Useful resources for data analytics
+
+## Other data sources
+
+### Wharton Research Data Services
+
+https://wrds-web.wharton.upenn.edu/wrds/
+
+### S&P Global Market Intelligence
+
+https://platform.spgi.spglobal.com
+
+
+## Ethereum data
+
+### Infura
+
+https://infura.io/
+
+### ethereum-tools
+
+https://github.com/danhper/ethereum-tools
+
+## Minimum working examples
+
+https://github.com/xujiahuayz/BlockchainCourse/tree/master/mwe-data-scripts
+
+## Smart contracts -- A first look
+
+- Remix: Ethereum IDE https://remix.ethereum.org/
+- Metamask: browser-based crypto wallet https://metamask.io
+- Etherscan: Ethereum block explorer https://etherscan.io/
+- Kovan Faucet: Tap ETH from Kovan testnet https://kovan.faucet.enjin.io/
+- Minimum working examples: accounting smart contracts
+    - last in first out: https://github.com/xujiahuayz/BlockchainCourse/blob/master/accounting/lifo.sol
+    - first in first out: https://github.com/xujiahuayz/BlockchainCourse/blob/master/accounting/fifo.sol
+    - average cost: https://github.com/xujiahuayz/BlockchainCourse/blob/master/accounting/avco.sol
+- CryptoZombies: an interactive school that teaches Solidity https://cryptozombies.io/
+
+
+## UCL high performance computing
+
+https://www.ucl.ac.uk/research-it-services/services/research-computing-platforms
