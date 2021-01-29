@@ -13,11 +13,16 @@ Efficiency in data validation and storage: checking and downloading in branches
 
 ---
 
-3. Forks
+3. Adjustable difficulty level
+  - [Hash rate](https://www.blockchain.com/charts/hash-rate)
+    - 1 TH/s is 1,000,000,000,000 (one trillion) hashes per second.
+  - [Difficulty level](https://www.blockchain.com/charts/difficulty)
+  
 
----
+4. Proof-of-Stake and other consensus mechanisms
 
-### Soft forks (and hard forks?)
+5. Forks
+  - Soft forks (and hard forks?)
 
 
 
@@ -112,8 +117,7 @@ function deposit() payable {
     1. Rollups: increase data layer capacity
         - zk Rollups: fast but difficult for existing smart contracts to migrate
         - Optimistic rollup: EVM compatible but slower
-1. Adjustable difficulty level
-1. Proof-of-Stake and other consensus mechanisms
+
 
 
 # Decentralized autonomous organization (DAO)
