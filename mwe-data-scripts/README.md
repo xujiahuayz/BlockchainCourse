@@ -6,15 +6,15 @@
 
   - iOS
     
-    ```zsh
-    python3 -m venv venv
-    ```
+  ```zsh
+  python3 -m venv venv
+  ```
 
   - Windows
     
-    ```
-    python -m venv venv
-    ```
+  ```
+  python -m venv venv
+  ```
 
 - Activate the virtual environment
 
@@ -33,8 +33,8 @@
 
 - `pip` install required libraries, e.g.
 
-```zsh
-pip install requests
-```
+    ```zsh
+    pip install requests
+    ```
 
 - If applicable, agree to install `ipykernel`
