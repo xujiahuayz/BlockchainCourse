@@ -4,21 +4,32 @@
 
 - Create a python virtual environment
 
-```zsh
-python3 -m venv venv
-```
+  - iOS
+    
+    ```zsh
+    python3 -m venv venv
+    ```
+
+  - Windows
+    
+    ```
+    python -m venv venv
+    ```
 
 - Activate the virtual environment
 
-```zsh
-. venv/bin/activate
-```
+  - iOS
+  
+  ```zsh
+  . venv/bin/activate
+  ```
+  
+  - Windows
+  
+  ```zsh
+  venv\Scripts\activate.bat
+  ```
 
-or equivalently
-
-```zsh
-source venv/bin/activate
-```
 
 - `pip` install required libraries, e.g.
 
