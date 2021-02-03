@@ -24,7 +24,7 @@
   . venv/bin/activate
   ```
   
-  - Windows
+  - Windows (in Command Prompt, NOT Powershell)
   
   ```zsh
   venv\Scripts\activate.bat
