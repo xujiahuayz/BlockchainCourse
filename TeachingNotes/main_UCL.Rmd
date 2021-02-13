@@ -30,10 +30,16 @@ options(stringsAsFactors=F)
 knitr::opts_chunk$set(echo = F, cache = T, eval=F)
 ```
 
-```{r child = 'sessions/housekeeping_UCL_2022.Rmd', eval=T}
+```{r child = 'sessions/housekeeping_UCL_2022.Rmd', eval=F}
 ```
 
-```{r child = 'sessions/BTCvETH.Rmd', eval=T}
+```{r child = 'sessions/decentralizedFinance.Rmd', eval=F}
+```
+
+```{r child = 'sessions/smartContracts.Rmd', eval=F}
+```
+
+```{r child = 'sessions/communication.Rmd', eval=T}
 ```
 
 

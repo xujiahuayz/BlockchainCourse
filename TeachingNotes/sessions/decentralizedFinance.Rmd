@@ -1,0 +1,73 @@
+## From the previous session
+
+1. Language difference between Bitcoin and Ethereum
+2. Automated market makers (AMM) on Ethereum
+3. "rippling" on the XRP ledger
+
+# Decentralized finance 
+
+## Decentralized exchange (DEX) {.shrink}
+
+### DEXs on Ethereum: Automated market makers (AMM)
+- Actors
+    1. Liquidity initiator / introducer
+    1. Liquidity provider
+    1. Exchange user
+    1. Arbitrageurs
+    1. Protocol foundation
+- Assets
+    1. Risk assets
+    1. Base/native/accounting/quote assets
+    1. Pool shares
+    1. Governance token
+- Conservation function
+    1. Uniswap: $k = R_o \cdot R_i$
+    1. Balancer: $k = R_o^{W_o} \cdot R_i^{W^i}$
+    1. Bancor: $k = \frac{S_j \cdot P_j}{R_{\tt USD}}$
+
+---
+
+### DEXs on XRPL: Ledger gateway
+
+- Orderbook structure
+- User-defined trustline
+- IOU issuance
+- Transitive trustline (ripple effect)
+
+
+***Take statements on the Internet with a pinch of salt***
+
+Ripple XRP: RTGS New Cross Border Payment System, Is Ripple in Trouble Here???: https://www.youtube.com/watch?v=kkZpSM6VwJU
+
+## Stablecoin [@Klages-Mundt2020]
+
+- Custodial
+    * Reserve Fund: Diem (formerly Libra)
+    * Fractional Reserve Fund: $\tt USDT$
+    * Central Bank Digital Currency (CBDC) (?)
+- Non-custodial
+    * $\tt DAI$: Collateralized by $\tt ETH$
+    
+## Lending protocols on Ethereum
+
+- Value locked: deposits, liquidity supply
+    - Maker: 2.4 Billion USD
+    - Compound: 1.5 Billion USD
+    - Aave: 1.3 Billion USD
+- IOU token: proof that the protocol owes you
+    - Maker: $\tt DAI$
+    - Compound: $\tt cToken$
+    - Aave: $\tt aToken$
+- Collateral
+- Liquidation
+- Interest rate
+- Governance token
+    - Maker: $\tt MKR$
+    - Compound: $\tt COMP$
+    - Aave: $\tt AAVE$
+
+## CeFi lending vs. DeFi lending
+
+![Lending markets landscape](figure/lendingmarkets)
+
+
