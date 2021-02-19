@@ -36,7 +36,7 @@ Interact with the deployed smart contract by performing the following 5 transact
 1. burn 70 tokens from address `ABC`
 1. approve address `XYZ` to spend up to 110 tokens from address `ABC`
 1. transfer mintership to address `XYZ`
-1. transfer 40 tokens from address `ABC` to a third address with address `XYZ`
+1. transfer 40 tokens with address `XYZ` from address `ABC` to a third address
 
 ## Deliverable
 
@@ -60,7 +60,7 @@ One PDF file that includes the following information:
 
 1. Deployed smart contract url: **3 points**
    - e.g. https://kovan.etherscan.io/address/0x714adeedb372ce1307d69cca1dfc694a4ec587ed#code
-1. Transaction urls: **5 points**
+1. Transaction urls (one url per transaction): **5 points**
    - e.g. transfer tokens: https://kovan.etherscan.io/tx/0x8e70f74b846f200b43ad27e10bd3bea9ef741be90f73b300fc24abaed22fc25e
 
 ## Deadline
